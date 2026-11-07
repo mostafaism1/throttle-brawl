@@ -7,7 +7,7 @@ import com.github.mostafaism1.throttlebrawl.domain.shared.Season;
 
 
 /// Entry point. Optional first argument: the rider's name.
-public sealed interface App {
+public sealed interface ThrottleBrawl {
     String DEFAULT_RIDER = "Rookie";
 
     @Contract
@@ -22,5 +22,5 @@ public sealed interface App {
               .onFailure(cause -> System.err.println("Cannot start: " + cause.message()));
     }
 
-    record unused() implements App {}
+    record unused() implements ThrottleBrawl {}
 }

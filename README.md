@@ -63,7 +63,7 @@ The rider name is optional (1–16 characters, defaults to `Rookie`).
 
 ```
 com.github.mostafaism1.throttlebrawl
-├── App.java                     entry point
+├── ThrottleBrawl.java           entry point
 ├── domain/shared/               immutable value types shared by every use case
 │   ├── Rider, Vehicle, Track, Strip, Prop, RaceState, Season, ...
 │   ├── TrackCatalog, Roster     built-in courses and rival riders

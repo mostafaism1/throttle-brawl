@@ -69,7 +69,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.github.mostafaism1.throttlebrawl.App</mainClass>
+                            <mainClass>com.github.mostafaism1.throttlebrawl.ThrottleBrawl</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -88,7 +88,7 @@
                             <createDependencyReducedPom>false</createDependencyReducedPom>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>com.github.mostafaism1.throttlebrawl.App</mainClass>
+                                    <mainClass>com.github.mostafaism1.throttlebrawl.ThrottleBrawl</mainClass>
                                 </transformer>
                             </transformers>
                             <filters>
@@ -111,7 +111,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.5.0</version>
                 <configuration>
-                    <mainClass>com.github.mostafaism1.throttlebrawl.App</mainClass>
+                    <mainClass>com.github.mostafaism1.throttlebrawl.ThrottleBrawl</mainClass>
                 </configuration>
             </plugin>
             <plugin>
